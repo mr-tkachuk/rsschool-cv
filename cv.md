@@ -9,20 +9,19 @@
 
 
 ## About Me
-My main goal is take a job-offer to frontend developer and change my life (I work in HoReCa.)  
-I have a bachelor degree in computer science (I finished ITMO 4 years ago).  
+My main goal is take a job-offer to frontend developer and change my life (I work in HoReCa.)   
 I love reading and gaming. I have a big spider.
 
 ## My skills
 * HTML5, CSS3
-* Javascript
+* JavaScript
 * Git, Github
 * SQL
 * VSCode
 
 ## Code Example
 
-**Can we divide it? KATA from codewars:** *Your task is to create the functionisDivideBy (or is_divide_by) to check if an integer number is divisible by both integers a and b.*
+**Can we divide it? KATA from codewars:** *Your task is to create the functionIsDivideBy (or is_divide_by) to check if an integer number is divisible by both integers a and b.*
 ``` javascript
 function isDivideBy(number, a, b) {
   let result = true;
@@ -32,4 +31,15 @@ function isDivideBy(number, a, b) {
 }
 ```
 
+## Experience
+[My CV project](https://github.com/mr-tkachuk/rsschool-cv/tree/main) 
 
+## Education
+* Higher Education - Bachelor's degree in computer science (graduated ITMO in 2017)
+* htmlacademy.ru (exercises) -  in progress
+* JavaScript Manual on https://learn.javascript.ru/ -  in progress
+* RS Schools Course «JavaScript/Front-end. Stage 0» -  in progress
+
+## Languages
+* Russian - native
+* English - B1
