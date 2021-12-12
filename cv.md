@@ -1,6 +1,6 @@
 # ANTON TKACHUK
 ## Junior Frontend Developer
-![](rsschool-cv\img\Ава.jpg)
+![MyPhoto](https://github.com/mr-tkachuk/rsschool-cv/blob/gh-pages/img/%D0%90%D0%B2%D0%B0.jpg?raw=true)
 
 ## Contact Details
 * Phone: +7-921-916-88-97
