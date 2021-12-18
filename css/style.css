@@ -4,3 +4,28 @@
 body {
     font-family: 'Inter', sans-serif;
 }
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    max-width: 1440px;
+    min-height: 100vh;
+    margin: 0 auto;    
+}
+
+.header{
+    background-color: aqua;
+    
+}
+.photo {
+    border-radius: 50%;
+}
+.main {
+    background-color: pink;
+    height: 500px;
+}
+.footer {
+    background-color: burlywood;
+    height: 300px;
+    
+}
