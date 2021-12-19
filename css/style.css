@@ -9,12 +9,14 @@ body {
     display: flex;
     flex-direction: column; 
     min-height: 100vh;
+    font-size: 16px;
+    line-height: 1.4em;
 }
 .wrapper {
     max-width: 1440px;
     margin: 0 auto;    
 }
-
+/*HEADER*/
 .header{
     position: fixed;
     background-color: burlywood;
@@ -44,23 +46,98 @@ body {
     color: white;
     font-size: 1.3em;
 }
-.photo {
-    border-radius: 50%;
-    max-width: 200px;
-}
-.main {
-    margin-top: 100px;
-}
+/*MAIN */
+
 .main-wrapper{
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
 }
+/*GENERAL CARD'S*/
 .card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
     flex-basis: 481px;
     flex-grow: 1;
-    padding-top: 112px;
+    padding-top: 112px;  
 }
+.card:first-child{
+    align-items: center;
+}
+.card:last-child{
+    padding-bottom: 56px;
+}
+.card-header{
+    font-size: 26px;
+    font-weight: 700;
+    align-self: center;
+    color: burlywood;
+    margin-bottom: 10px;
+}
+.my-name{
+    color:burlywood;
+    font-size: 32px;
+    font-weight: 900;
+    line-height: 40px;
+}
+.my-role {
+    color: black;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 30px;    
+}
+.photo {
+    border-radius: 50%;
+    max-width: 200px;
+    align-self: center;
+}
+.list-header{
+    color:burlywood;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 20px;
+}
+.list-item {
+    position: relative;
+    padding-left: 30px;
+}
+.list-item::before{
+    content: "";
+    position: absolute;
+    top: 4px;
+    left: 13px;
+    width: 14px;
+    height: 14px;
+    background-size: 14px 14px; 
+    background-image: url("../assets/svg/general-mark.svg");
+    
+}
+.location::before {
+    background-image: url("../assets/svg/location-mark.svg");
+}
+.email::before {
+    background-image: url("../assets/svg/email-mark.svg");
+}
+.discord::before {
+    background-image: url("../assets/svg/discord-mark.svg");
+}
+.telegram::before {
+    background-image: url("../assets/svg/telegram-mark.svg");
+}
+.phone::before {
+    background-image: url("../assets/svg/phone-mark.svg");
+}
+.project-link {
+    text-decoration: none;
+    color: black;
+    transition: font-size 0.5s ease;                
+}
+.project-link:hover{
+    color:burlywood;
+}
+/*FOOTER*/
 
 .footer {
     background-color: burlywood;
@@ -77,6 +154,10 @@ body {
 .rs-logo, .github-logo {
     margin: 30px;
     width: 80px;
+    transition: width 0.5s ease;
+}
+.rs-logo:hover, .github-logo:hover{
+    width: 90px;
 }
 .year {
     font-size: 26px;
