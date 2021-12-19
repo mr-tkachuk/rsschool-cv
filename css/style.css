@@ -30,8 +30,7 @@ body {
     max-width: 200px;
 }
 .main {
-    background-color: pink;
-    height: 500px;
+    background-color: pink;   
 }
 .main-wrapper{
     display: flex;
