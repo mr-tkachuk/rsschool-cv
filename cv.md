@@ -11,7 +11,7 @@
 
 ## About Me
 My main goal is to receive a job-offer to frontend developer and change my life (I work in HoReCa.)   
-I love reading and walking, but most of all I love gaming and chess. I love spiders, so I have a big one.
+I love reading and walking, but most of all I prefer gaming at my free time. I love spiders, so I have very big one.
 
 ## My skills
 * HTML5, CSS3
