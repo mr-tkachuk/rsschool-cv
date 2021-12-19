@@ -19,6 +19,7 @@ body {
 /*HEADER*/
 .header{
     position: fixed;
+    z-index: 2;
     background-color: burlywood;
     width: 100%;  
 }
@@ -58,10 +59,13 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: flex-start;
+    
     flex-basis: 481px;
     flex-grow: 1;
-    padding-top: 112px;  
+    height: 100%;
+    padding-top: 112px;
+    padding-left: 30px;
+    padding-right: 30px;   
 }
 .card:first-child{
     align-items: center;
@@ -93,11 +97,15 @@ body {
     max-width: 200px;
     align-self: center;
 }
+.code-example {
+    max-width: 100%; 
+}
 .list-header{
     color:burlywood;
     font-size: 16px;
     font-weight: 700;
     line-height: 20px;
+    margin: 8px 0;
 }
 .list-item {
     position: relative;
@@ -137,6 +145,8 @@ body {
 .project-link:hover{
     color:burlywood;
 }
+
+
 /*FOOTER*/
 
 .footer {
