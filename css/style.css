@@ -1,11 +1,13 @@
 * {
     box-sizing: border-box;
 }
+html {
+    scroll-behavior: smooth;
+}
 body {
     font-family: 'Inter', sans-serif;
     display: flex;
-    flex-direction: column;
-    
+    flex-direction: column; 
     min-height: 100vh;
 }
 .wrapper {
@@ -15,17 +17,32 @@ body {
 
 .header{
     position: fixed;
-    background-color: aqua;
-    min-height: 100px;
+    background-color: burlywood;
     width: 100%;  
 }
 .nav-list{
     display: flex;
-    justify-content: space-between;
+    justify-content: flex-end;
     flex-wrap: wrap;
+    align-items: center;
+    min-height: 70px;
+    
 }
-.nav-item {
+.nav-item{
+    margin: 10px;
+}
+
+.nav-link {
+    padding: 8px;
+    color: black;
+    font-weight: 500;
     text-decoration: none;
+    transition: font-size 0.5s ease,
+                  color 0.5s ease;
+}
+.nav-link:hover{
+    color: white;
+    font-size: 1.3em;
 }
 .photo {
     border-radius: 50%;
@@ -40,11 +57,28 @@ body {
     flex-wrap: wrap;
 }
 .card {
-    width: 500px;
+    flex-basis: 481px;
+    flex-grow: 1;
+    padding-top: 112px;
 }
 
 .footer {
     background-color: burlywood;
-    height: 300px;
+    min-height: 100px;
+    width: 100%;
     margin-top: auto;  
+}
+.footer-wrapper { 
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+}
+.rs-logo, .github-logo {
+    margin: 30px;
+    width: 80px;
+}
+.year {
+    font-size: 26px;
+    font-weight: 900;
 }

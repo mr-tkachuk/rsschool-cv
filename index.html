@@ -15,19 +15,20 @@
             <div class="wrapper">
                 <nav class="nav">
                     <ul class="nav-list">
-                        <li><a href="#contact-details" class="nav-item">Contact details</a></li>
-                        <li><a href="#about-me" class="nav-item">About me</a></li>
-                        <li><a href="#skills" class="nav-item">My skills</a></li>
-                        <li><a href="#code-example" class="nav-item">Code example</a></li>
-                        <li><a href="#experience" class="nav-item">Experience</a></li>
-                        <li><a href="#education" class="nav-item">Education&Language</a></li>
+                        <li class="nav-item"><a href="#cv" class="nav-link">CV</a></li>
+                        <li class="nav-item"><a href="#contact-details" class="nav-link">Contact details</a></li>
+                        <li class="nav-item"><a href="#about-me" class="nav-link">About me</a></li>
+                        <li class="nav-item"><a href="#skills" class="nav-link">My skills</a></li>
+                        <li class="nav-item"><a href="#code-example" class="nav-link">Code example</a></li>
+                        <li class="nav-item"><a href="#experience" class="nav-link">Experience</a></li>
+                        <li class="nav-item"><a href="#education" class="nav-link">Education&Language</a></li>
                     </ul>
                 </nav>
             </div>
         </header>
         <main class="main">
             <div class="wrapper main-wrapper">
-                <section class="card title">
+                <section id="cv" class="card title">
                     <h1 class="title"> ANTON TKACHUK</h1>
                     <h2 class="role">JUNIOR FRONTEND DEVELOPER</h2>
                 </section>
@@ -50,7 +51,7 @@
                         About me
                     </h3>
                     <p>
-                        My main goal is to receive a job-offer to frontend developer and change my life (I work in HoReCa.)   
+                        My main goal is to receive a job-offer on a frontend developer position and to change my life (I work in HoReCa now.)   
                         I love reading and walking, but most of all I prefer gaming at my free time. I love spiders, so I have very big one
                     </p>
                 </section>
@@ -100,7 +101,11 @@
                     <h3>
                         My projects
                     </h3>
-                    <a href="https://github.com/mr-tkachuk/rsschool-cv/tree/main">My CV project</a>
+                    <ul>
+                        <li>
+                            <a href="https://github.com/mr-tkachuk/rsschool-cv/tree/main">My CV project</a>
+                        </li>
+                    </ul>
                 </section>
                 <section id="education"class="card">
                     <h3>
@@ -131,13 +136,20 @@
                             English - B1 (in progress)
                         </li>
                     </ul>
-                </section>
-                
+                </section>       
             </div>
         </main>
         <footer class="footer">
-            <div class="wrapper">
-
+            <div class="wrapper footer-wrapper">
+                <a href="https://github.com/mr-tkachuk">
+                    <img src="./assets/img/GitHub-Logo.png" alt="My GitHub" class="github-logo">
+                </a>
+                <p class="year">
+                    2021
+                </p>
+                <a href="https://rs.school/js-stage0/">
+                    <img src="./assets/img/rs_school_js.svg" alt="RSSchool Logo" class="rs-logo">
+                </a>
             </div>
         </footer>    
 </body>
