@@ -97,6 +97,9 @@ body {
     max-width: 200px;
     align-self: center;
 }
+.photo-header {
+    display: none;
+}
 .code-example {
     max-width: 100%; 
 }
