@@ -5,7 +5,7 @@ body {
     font-family: 'Inter', sans-serif;
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    
     min-height: 100vh;
 }
 .wrapper {
@@ -15,17 +15,34 @@ body {
 
 .header{
     background-color: aqua;
-    
+    min-height: 100px;  
+}
+.nav-list{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.nav-item {
+    text-decoration: none;
 }
 .photo {
     border-radius: 50%;
+    max-width: 200px;
 }
 .main {
     background-color: pink;
     height: 500px;
 }
+.main-wrapper{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.card {
+    width: 500px;
+}
 .footer {
     background-color: burlywood;
     height: 300px;
-    
+    margin-top: auto;  
 }
