@@ -14,8 +14,10 @@ body {
 }
 
 .header{
+    position: fixed;
     background-color: aqua;
-    min-height: 100px;  
+    min-height: 100px;
+    width: 100%;  
 }
 .nav-list{
     display: flex;
@@ -30,7 +32,7 @@ body {
     max-width: 200px;
 }
 .main {
-    background-color: pink;   
+    margin-top: 100px;
 }
 .main-wrapper{
     display: flex;
